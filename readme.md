@@ -22,3 +22,6 @@ http://localhost:1337/patient/create?name=Peter&address=Adyar&mobile=9583298535&
 npm install -g generator-angular-crud
 npm install -g yo
 yo angular-crud
+yo angular-crud:feature patient
+yo angular-crud:feature vitals
+yo angular-crud:feature doctor
