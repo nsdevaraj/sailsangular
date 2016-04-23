@@ -1,4 +1,4 @@
-https://github.com/maartendb/angular-sails-scrum-tutorial
+
 sudo npm -g install sails
 sudo npm -g install bower
 
@@ -8,7 +8,8 @@ sails generate api vitals
 sails generate api patient
 sails generate api doctor
 
-angular seed
+//todo
+angular seed 
 
 npm install
 npmn start
