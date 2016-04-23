@@ -26,6 +26,14 @@
                         label: 'Address:',
                         disabled: disabled
                     }
+                },
+                {
+                    key: 'mobile',
+                    type: 'input',
+                    templateOptions: {
+                        label: 'Mobile:',
+                        disabled: disabled
+                    }
                 }
             ];
 

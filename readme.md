@@ -7,6 +7,7 @@ cd apiserve
 sails generate api vitals
 sails generate api patient
 sails generate api doctor
+sails lift
 
 //todo
 angular seed 

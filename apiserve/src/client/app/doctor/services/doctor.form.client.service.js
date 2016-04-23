@@ -20,10 +20,10 @@
                     }
                 },
                 {
-                    key: 'address',
+                    key: 'mobile',
                     type: 'input',
                     templateOptions: {
-                        label: 'Address:',
+                        label: 'Mobile:',
                         disabled: disabled
                     }
                 }

@@ -15,7 +15,7 @@
       <table ng-table="vm.tableParams" show-filter="true" class="table table-condensed table-striped">
           <tr ng-repeat="doctor in $data">
               <td data-title="'Name'" sortable="'name'" filter="{ 'name': 'text' }">{{doctor.name}}</td>
-              <td data-title="'Address'" sortable="'address'" filter="{'address': 'text'}">{{doctor.address}}</td>
+              <td data-title="'Mobile'" sortable="'mobile'" filter="{'mobile': 'text'}">{{doctor.mobile}}</td>
               <td>
                  <div class="table-actions">
                       <a class="btn btn-default" title="View" href="/doctor/{{doctor.id}}">

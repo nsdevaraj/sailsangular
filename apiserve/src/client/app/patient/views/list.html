@@ -16,6 +16,7 @@
           <tr ng-repeat="patient in $data">
               <td data-title="'Name'" sortable="'name'" filter="{ 'name': 'text' }">{{patient.name}}</td>
               <td data-title="'Address'" sortable="'address'" filter="{'address': 'text'}">{{patient.address}}</td>
+              <td data-title="'Mobile'" sortable="'mobile'" filter="{'mobile': 'text'}">{{patient.mobile}}</td>
               <td>
                  <div class="table-actions">
                       <a class="btn btn-default" title="View" href="/patient/{{patient.id}}">

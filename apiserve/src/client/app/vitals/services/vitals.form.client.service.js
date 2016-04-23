@@ -11,19 +11,59 @@
 
             var fields = [
                 {
-                    key: 'name',
+                    key: 'interval',
                     type: 'input',
                     templateOptions: {
-                        label: 'Name:',
+                        label: 'Interval:',
                         disabled: disabled,
                         required: true
                     }
                 },
                 {
-                    key: 'address',
+                    key: 'minsp02',
                     type: 'input',
                     templateOptions: {
-                        label: 'Address:',
+                        label: 'minsp02:',
+                        disabled: disabled
+                    }
+                },
+                {
+                    key: 'maxsp02',
+                    type: 'input',
+                    templateOptions: {
+                        label: 'maxsp02:',
+                        disabled: disabled
+                    }
+                },
+                {
+                    key: 'minbeat',
+                    type: 'input',
+                    templateOptions: {
+                        label: 'minbeat:',
+                        disabled: disabled
+                    }
+                },
+                {
+                    key: 'maxbeat',
+                    type: 'input',
+                    templateOptions: {
+                        label: 'maxbeat:',
+                        disabled: disabled
+                    }
+                },
+                {
+                    key: 'mintemp',
+                    type: 'input',
+                    templateOptions: {
+                        label: 'mintemp:',
+                        disabled: disabled
+                    }
+                },
+                {
+                    key: 'maxtemp',
+                    type: 'input',
+                    templateOptions: {
+                        label: 'maxtemp:',
                         disabled: disabled
                     }
                 }
